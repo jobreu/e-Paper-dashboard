@@ -45,7 +45,7 @@ while(TRUE){
   #------------------------------------------------------------------------------#
   cat("getting weather data\n")
   base_url <- "http://api.openweathermap.org/data/2.5/weather?q="
-  city <- "Manchester,uk"
+  city <- "Cologne,de"
   api_key <- "OPENWEATHERAPIKEY"
   weather_data <- jsonlite::fromJSON(paste0(base_url,city,"&appid=",api_key,"&units=metric"))
   
